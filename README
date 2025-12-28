@@ -31,7 +31,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
      (Totally 20 features: B8-B4/B8+B4, B3-B8/B3+B8, B8-B11/B8+B11, B8-B12/B8+B12, B8-B11/B8+B12, 
       B8-B12/B8+B11, B3-B11/B3+B11, B3-B12/B3+B12, B3-B11/B3+B12, B3-B12/B3+B11, B4-B3/B4+B3, B3+B4/B8+B11, 
       B3+B4/B8+B12, 4×(B3-B11)-(0.25 ×B8+2.75×B11), 4×(B3-B12)-(0.25×B8+2.75×B12), 4×(B3-B11)-(0.25×B8+2.75×B12), 
-      4×(B3-B12)-(0.25×B8+2.75×B11), B4/B8, B4/B2, B5-B4/B5+B4.. Details in Section 3.3.1)  
+      4×(B3-B12)-(0.25×B8+2.75×B11), B4/B8, B4/B2, B5-B4/B5+B4. Details in Section 3.3.1)  
   c. Derived Features (DF) *Derived via mathematical functions
      (Totally 19,600 features including squaring, cubing, reciprocation, logarithmic transformation, absolute value, 
       and standardization, combined with addition, subtraction, multiplication, and division. Details in Section 3.3.1)
