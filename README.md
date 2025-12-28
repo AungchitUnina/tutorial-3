@@ -1,7 +1,5 @@
 # Global-Scale Chlorophyll-a Monitoring in Inland Lakes for Water Quality Assessment Based on Remote Sensing and Machine Learning Models        
 -----------------------------------------------------------------------------------------------------------------------------
----
-
 **Aung Chit Moe** a,b*  
 **Khim Cathleen Saddi** a,b,c  
 **Ruodan Zhuang** a  
@@ -9,17 +7,11 @@
 **Jorge Saavedra Navarro** a  
 **Salvatore Manfreda** a  
 
-a Department of Civil, Building and Environmental Engineering (DICEA),  
-University of Naples Federico II, Naples, Italy  
-
+a Department of Civil, Building and Environmental Engineering (DICEA), University of Naples Federico II, Naples, Italy  
 b IUSS University School for Advanced Studies of Pavia, Pavia, Italy  
-
-c Department of Civil Engineering and Architecture,  
-Ateneo de Naga University, Naga, Philippines  
+c Department of Civil Engineering and Architecture, Ateneo de Naga University, Naga, Philippines  
 
 \* Corresponding author: **aungchit.moe@unina.it**
-
----
 -----------------------------------------------------------------------------------------------------------------------------
 ## Data Sources 
 -----------------------------------------------------------------------------------------------------------------------------
