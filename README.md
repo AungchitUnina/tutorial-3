@@ -52,21 +52,24 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 > A = Band 1, B = Band 2, C = Band 3, D = Band 4, E = Band 5,  
 > F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12
 -----------------------------------------------------------------------------------------------------------------------------
-# 4. Selected Features for model input
-  a. Band Features (BF) *Original spectral bands
-     (Totally 10 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12) 
-  b. Index Features (IF) *Derived indices 
-     (Totally 5 features: B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8)  
-  c. Derived Features (DF) *Derived via mathematical functions
-     (Totally 5 features: StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2)
-  d. Band Index Features (BIF) *Bands + RF/Knee/VIF--> IF
-     (Totally 6 features: B5-B4/B5+B4, B5, B8-B12/B8+B11, B4-B3/B4+B3, B4/B2, B4/B8)
-  e. Band Derived Features (BDF) *Bands + RF/Knee/VIF-->DF
-     (Totally 7 features: StdB4-StdB5, Std B5/(B4)^3, (B5)^2-(B2)^2, 1/B6-1/B7, B6, B3, B11)
-  f. Composite Features (CF) *Bands + RF/Knee/VIF-->IF+DF
-     (Totally 7 features: StdB4-StdB5, B4/B2, B8-B12/B8+B11, B4-B3/B4+B3, B4/B8, 1/B6-1/B7, B11)
-*Note: In csv file, Derived feature names were renamed for simplicity as follows: A = Band 1, B = Band 2, C = Band 3, 
-       D = Band 4, E = Band 5, F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12.
+### 4. Selected Features for model input
+#### a. Band Features (BF) *Original spectral bands
+     Totally 10 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12 
+####  b. Index Features (IF) *Derived indices 
+     Totally 5 features: B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8  
+####  c. Derived Features (DF) *Derived via mathematical functions
+     Totally 5 features: StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2
+####  d. Band Index Features (BIF) *Bands + RF/Knee/VIF--> IF
+     Totally 6 features: B5-B4/B5+B4, B5, B8-B12/B8+B11, B4-B3/B4+B3, B4/B2, B4/B8
+####  e. Band Derived Features (BDF) *Bands + RF/Knee/VIF-->DF
+     Totally 7 features: StdB4-StdB5, Std B5/(B4)^3, (B5)^2-(B2)^2, 1/B6-1/B7, B6, B3, B11
+####  f. Composite Features (CF) *Bands + RF/Knee/VIF-->IF+DF
+     Totally 7 features: StdB4-StdB5, B4/B2, B8-B12/B8+B11, B4-B3/B4+B3, B4/B8, 1/B6-1/B7, B11
+     
+> **Note:**  
+> In CSV files, derived feature names are simplified as:  
+> A = Band 1, B = Band 2, C = Band 3, D = Band 4, E = Band 5,  
+> F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12
 -----------------------------------------------------------------------------------------------------------------------------
 # SCL Classes
 Value           Scene Classification                                                                           HTLM color code
