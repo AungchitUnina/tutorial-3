@@ -1,19 +1,19 @@
 # Global-Scale Chlorophyll-a Monitoring in Inland Lakes for Water Quality Assessment Based on Remote Sensing and Machine Learning Models        
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 Aung Chit Moe a,b*, Khim Cathleen Saddi a,b,c, Ruodan Zhuang a, Domenico Miglinoa, Jorge Saavedra Navarro a, and Salvatore Manfreda a
 a Department of Civil, Building and Environmental Engineering (DICEA), University of Naples Federico II, Naples, Italy;
 b IUSS University School for Advanced Studies of Pavia, Pavia, Italy;
 c Department of Civil Engineering and Architecture, Ateneo de Naga University, Naga, Philippines
 * Corresponding author: aungchit.moe@unina.it  
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # Data Sources 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # 1 Gathered and Filtered Data
   a. Gathered Raw Insitu Data 
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
   b. Filtered Raw Insitu Data 
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # 2. Matchups 
   a. Original in-situ-Sentinel-2 matchup
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + SCL classes)
@@ -23,7 +23,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + True/False flags)
   d. Filtered in-situ-Sentinel-2 matchup SCL classes (only water) with only True flag after data cleaning
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only True flag)
-------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # 3. Extracted Features 
   a. Band Features (BF) *Original spectral bands
      (Totally 10 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12) 
@@ -44,7 +44,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
       1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2)
 *Note: In csv file, Derived feature names were renamed for simplicity as follows: A = Band 1, B = Band 2, C = Band 3, D = Band 4, E = Band 5, 
        F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # 4. Selected Features for model input
   a. Band Features (BF) *Original spectral bands
      (Totally 10 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12) 
@@ -60,7 +60,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
      (Totally 7 features: StdB4-StdB5, B4/B2, B8-B12/B8+B11, B4-B3/B4+B3, B4/B8, 1/B6-1/B7, B11)
 *Note: In csv file, Derived feature names were renamed for simplicity as follows: A = Band 1, B = Band 2, C = Band 3, D = Band 4, E = Band 5, 
        F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # SCL Classes
 Value           Scene Classification                                                                           HTLM color code
 0	              No Data (Missing data)	                                                                          #000000	
@@ -76,7 +76,7 @@ Value           Scene Classification                                            
 10	              Thin cirrus	                                                                                      #64c8ff	
 11	              Snow or ice	                                                                                      #ff96ff
 Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 # Global in-situ data sources
 Relevant water quality databases include the Global Lakes Water Quality Database by Naderian et al. (2024) (https://github.com/roohollahnoori/AWQDFGL/), 
 the Global Freshwater Quality Database (https://gemstat.org/data-gemstat/), the Water Quality Portal (WQP) for the United States (https://www.waterqualitydata.us/), 
