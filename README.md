@@ -41,7 +41,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 > **Note:**  
 > In CSV files, derived feature names are simplified as:  
 > A = Band 1, B = Band 2, C = Band 3, D = Band 4, E = Band 5, F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12
-
+Sentinel-2: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2
 -----------------------------------------------------------------------------------------------------------------------------
 
 ### 4. Selected Features for model input
