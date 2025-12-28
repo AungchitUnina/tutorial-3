@@ -1,5 +1,5 @@
 # Global-Scale Chlorophyll-a Monitoring in Inland Lakes for Water Quality Assessment Based on Remote Sensing and Machine Learning Models        
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
 Aung Chit Moe a,b*, Khim Cathleen Saddi a,b,c, Ruodan Zhuang a, Domenico Miglinoa, Jorge Saavedra Navarro a, and Salvatore Manfreda a
 a Department of Civil, Building and Environmental Engineering (DICEA), University of Naples Federico II, Naples, Italy;
 b IUSS University School for Advanced Studies of Pavia, Pavia, Italy;
@@ -23,7 +23,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + True/False flags)
   d. Filtered in-situ-Sentinel-2 matchup SCL classes (only water) with only True flag after data cleaning
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only True flag)
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 # 3. Extracted Features 
   a. Band Features (BF) *Original spectral bands
      (Totally 10 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12) 
