@@ -86,6 +86,24 @@ Value           Scene Classification                                            
 10	              Thin cirrus	                                                                                      #64c8ff	
 11	              Snow or ice	                                                                                      #ff96ff
 Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/
+
+## SCL Classes
+
+| Value | Description | Color |
+|------:|------------|-------|
+| 0 | No Data | `#000000` |
+| 1 | Saturated or defective pixel | `#ff0000` |
+| 2 | Dark features / shadows | `#2f2f2f` |
+| 3 | Cloud shadows | `#643200` |
+| 4 | Vegetation | `#00a000` |
+| 5 | Not vegetated | `#ffe65a` |
+| 6 | Water | `#0000ff` |
+| 7 | Unclassified | `#808080` |
+| 8 | Cloud (medium probability) | `#c0c0c0` |
+| 9 | Cloud (high probability) | `#ffffff` |
+| 10 | Thin cirrus | `#64c8ff` |
+| 11 | Snow or ice | `#ff96ff` |
+
 -----------------------------------------------------------------------------------------------------------------------------
 # Global in-situ data sources
 Relevant water quality databases include the Global Lakes Water Quality Database by Naderian et al. (2024) (https://github.com/roohollahnoori/AWQDFGL/), 
