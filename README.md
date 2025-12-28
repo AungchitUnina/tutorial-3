@@ -33,7 +33,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 |--------------|------------|-----------------|---------|
 | a. Band Features (BF) | *Original spectral bands* | Totally 10 features | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12 |
 | b. Index Features (IF) | *Derived indices* | Totally 20 features | B8-B4/B8+B4, B3-B8/B3+B8, B8-B11/B8+B11, B8-B12/B8+B12, B8-B11/B8+B12, B8-B12/B8+B11, B3-B11/B3+B11, B3-B12/B3+B12, B3-B11/B3+B12, B3-B12/B3+B11, B4-B3/B4+B3, B3+B4/B8+B11, B3+B4/B8+B12, 4×(B3-B11)-(0.25 ×B8+2.75×B11), 4×(B3-B12)-(0.25×B8+2.75×B12), 4×(B3-B11)-(0.25×B8+2.75×B12), 4×(B3-B12)-(0.25×B8+2.75×B11), B4/B8, B4/B2, B5-B4/B5+B4 (Details in Section 3.3.1) |
-| c. Derived Features (DF) | *Derived via mathematical functions* | Totally 19,600 features | including squaring, cubing, reciprocation, logarithmic transformation, absolute value, and standardization, combined with addition, subtraction, multiplication, and division (Details in Section 3.3.1) |
+| c. Derived Features (DF) | *Derived via mathematical functions* | Totally 19,600 features | Including squaring, cubing, reciprocation, logarithmic transformation, absolute value, and standardization, combined with addition, subtraction, multiplication, and division (Details in Section 3.3.1) |
 | d. Band Index Features (BIF) | *Bands + RF/Knee/VIF--> IF* | Totally 15 features | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8 |
 | e. Band Derived Features (BDF) | *Bands + RF/Knee/VIF-->DF* | Totally 15 features | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2 |
 | f. Composite Features (CF) | *Bands + RF/Knee/VIF-->IF+DF* | Totally 20 features | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8, StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2 |
@@ -82,9 +82,11 @@ Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-
 
 
 -----------------------------------------------------------------------------------------------------------------------------
-# Global in-situ data sources
-Relevant water quality databases include the Global Lakes Water Quality Database by Naderian et al. (2024) (https://github.com/roohollahnoori/AWQDFGL/), 
-the Global Freshwater Quality Database (https://gemstat.org/data-gemstat/), the Water Quality Portal (WQP) for the United States (https://www.waterqualitydata.us/), 
-the European Environmental Agency (EEA) Waterbase (https://www.eea.europa.eu/en/), the Open Government Portal of Canada (https://search.open.canada.ca/opendata/), 
-and the Heterogeneous Data Platform for Operational Modeling and Forecasting of Swiss (https://www.datalakes-eawag.ch/). 
+## Global in-situ data sources
+- Relevant water quality databases include the Global Lakes Water Quality Database by Naderian et al. (2024) (https://github.com/roohollahnoori/AWQDFGL/)
+- the Global Freshwater Quality Database (https://gemstat.org/data-gemstat/)
+- the Water Quality Portal (WQP) for the United States (https://www.waterqualitydata.us/)
+- the European Environmental Agency (EEA) Waterbase (https://www.eea.europa.eu/en/)
+- the Open Government Portal of Canada (https://search.open.canada.ca/opendata/)
+- the Heterogeneous Data Platform for Operational Modeling and Forecasting of Swiss (https://www.datalakes-eawag.ch/) 
 -----------------------------------------------------------------------------------------------------------------------------
