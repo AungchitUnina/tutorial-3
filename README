@@ -67,8 +67,8 @@ Value           Scene Classification                                            
 7	              Unclassified	                                                                                    #808080	
 8	              Cloud medium probability	                                                                        #c0c0c0	
 9	              Cloud high probability	                                                                          #ffffff	
-10	            Thin cirrus	                                                                                      #64c8ff	
-11	            Snow or ice	                                                                                      #ff96ff
+10	             Thin cirrus	                                                                                      #64c8ff	
+11	             Snow or ice	                                                                                      #ff96ff
 
 Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/
 
