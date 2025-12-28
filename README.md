@@ -27,7 +27,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 #### d. Filtered in-situ-Sentinel-2 matchups by SCL classes (only water) with only True flag after data cleaning
       Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only True flag
 
-      Sentinel-2: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2
+     > Sentinel-2: https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2
 -----------------------------------------------------------------------------------------------------------------------------
 ### 3. Extracted Features
 
