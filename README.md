@@ -11,7 +11,8 @@ a Department of Civil, Building and Environmental Engineering (DICEA), Universit
 b IUSS University School for Advanced Studies of Pavia, Pavia, Italy  
 c Department of Civil Engineering and Architecture, Ateneo de Naga University, Naga, Philippines  
 
-** Corresponding author: **aungchit.moe@unina.it**
+\* Corresponding author: **aungchit.moe@unina.it**
+
 -----------------------------------------------------------------------------------------------------------------------------
 ## Data Sources 
 -----------------------------------------------------------------------------------------------------------------------------
