@@ -46,6 +46,16 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 #### f. Composite Features (CF) *Bands + RF/Knee/VIF-->IF+DF
        Totally 20 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8, 
        StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2
+### 3. Extracted Features
+
+| Feature Type | Description | Features |
+|--------------|------------|---------|
+| BF | Original spectral bands | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12 |
+| IF | Derived indices | B8-B4/B8+B4, B3-B8/B3+B8, B8-B11/B8+B11, B8-B12/B8+B12, B8-B11/B8+B12, B8-B12/B8+B11, B3-B11/B3+B11, B3-B12/B3+B12, B3-B11/B3+B12, B3-B12/B3+B11, B4-B3/B4+B3, B3+B4/B8+B11, B3+B4/B8+B12, 4×(B3-B11)-(0.25×B8+2.75×B11), 4×(B3-B12)-(0.25×B8+2.75×B12), 4×(B3-B11)-(0.25×B8+2.75×B12), 4×(B3-B12)-(0.25×B8+2.75×B11), B4/B8, B4/B2, B5-B4/B5+B4 |
+| DF | Derived via mathematical functions | 19,600 features including squaring, cubing, reciprocation, logarithmic transformation, absolute value, and standardization combined with addition, subtraction, multiplication, and division |
+| BIF | Bands + RF/Knee/VIF → IF | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8 |
+| BDF | Bands + RF/Knee/VIF → DF | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, StdB5/(B4)^3, (B5)^2-(B2)^2 |
+| CF | Bands + RF/Knee/VIF → IF+DF | B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8, StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, StdB5/(B4)^3, (B5)^2-(B2)^2 |
 
 > **Note:**  
 > In CSV files, derived feature names are simplified as:  
