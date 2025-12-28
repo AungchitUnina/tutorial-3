@@ -10,7 +10,7 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 -----------------------------------------------------------------------------------------------------------------------------
 # 1 Gathered and Filtered Data
  * (a) Gathered Raw Insitu Data 
-       (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
+      ** (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
  * (b) Filtered Raw Insitu Data 
        (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
 -----------------------------------------------------------------------------------------------------------------------------
