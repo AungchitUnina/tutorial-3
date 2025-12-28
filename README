@@ -18,11 +18,14 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
   a. Original in-situ-Sentinel-2 matchup
      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + SCL classes)
   b. Filtered in-situ-Sentinel-2 matchup by SCL classes (only water)
-     (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only water SCL class)
+     (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + 
+      only water SCL class)
   c. Filtered in-situ-Sentinel-2 matchup SCL classes (only water) with True/False flags after data cleaning
-     (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + True/False flags)
+     (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + 
+      True/False flags)
   d. Filtered in-situ-Sentinel-2 matchup SCL classes (only water) with only True flag after data cleaning
-     (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only True flag)
+     (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + 
+      only True flag)
 -----------------------------------------------------------------------------------------------------------------------------
 # 3. Extracted Features 
   a. Band Features (BF) *Original spectral bands
