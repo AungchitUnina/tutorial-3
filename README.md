@@ -71,38 +71,26 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 > A = Band 1, B = Band 2, C = Band 3, D = Band 4, E = Band 5,  
 > F = Band 6, G = Band 7, H = Band 8, I = Band 8A, J = Band 11, K = Band 12
 -----------------------------------------------------------------------------------------------------------------------------
-# SCL Classes
-Value           Scene Classification                                                                           HTLM color code
-0	              No Data (Missing data)	                                                                          #000000	
-1	              Saturated or defective pixel	                                                                      #ff0000	
-2	              Topographic casted shadows (called "Dark features/Shadows" for data before 2022-01-25)	          #2f2f2f	
-3	              Cloud shadows	                                                                                      #643200	
-4	              Vegetation	                                                                                      #00a000	
-5	              Not-vegetated	                                                                                      #ffe65a	
-6	              Water	                                                                                              #0000ff	
-7	              Unclassified	                                                                                      #808080	
-8	              Cloud medium probability	                                                                          #c0c0c0	
-9	              Cloud high probability	                                                                          #ffffff	
-10	              Thin cirrus	                                                                                      #64c8ff	
-11	              Snow or ice	                                                                                      #ff96ff
-Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/
-
 ## SCL Classes
 
 | Value | Description | Color |
 |------:|------------|-------|
-| 0 | No Data | `#000000` |
+| 0 | No Data (Missing data) | `#000000` |
 | 1 | Saturated or defective pixel | `#ff0000` |
-| 2 | Dark features / shadows | `#2f2f2f` |
+| 2 | Topographic casted shadows (called "Dark features/Shadows" for data before 2022-01-25) | `#2f2f2f` |
 | 3 | Cloud shadows | `#643200` |
 | 4 | Vegetation | `#00a000` |
-| 5 | Not vegetated | `#ffe65a` |
+| 5 | Not-vegetated | `#ffe65a` |
 | 6 | Water | `#0000ff` |
 | 7 | Unclassified | `#808080` |
-| 8 | Cloud (medium probability) | `#c0c0c0` |
-| 9 | Cloud (high probability) | `#ffffff` |
+| 8 | Cloud medium probability | `#c0c0c0` |
+| 9 | Cloud high probability | `#ffffff` |
 | 10 | Thin cirrus | `#64c8ff` |
 | 11 | Snow or ice | `#ff96ff` |
+
+Source: https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/scene-classification/
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------
 # Global in-situ data sources
