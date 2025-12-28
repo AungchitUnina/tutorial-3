@@ -10,13 +10,13 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
 -----------------------------------------------------------------------------------------------------------------------------
 # 1 Gathered and Filtered Data
  * (a) Gathered Raw Insitu Data 
-      ** (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
+      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
  * (b) Filtered Raw Insitu Data 
-       (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
+      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
 -----------------------------------------------------------------------------------------------------------------------------
 # 2. Matchups 
  * (a) Original in-situ-Sentinel-2 matchups
-       (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + SCL classes)
+      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + SCL classes)
  * (b) Filtered in-situ-Sentinel-2 matchups by SCL classes (only water)
        (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only water SCL class)
  * (c) Filtered in-situ-Sentinel-2 matchups by SCL classes (only water) with True/False flags after data cleaning
