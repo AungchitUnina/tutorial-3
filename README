@@ -38,7 +38,8 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
   d. Band Index Features (BIF) *Bands + RF/Knee/VIF--> IF
      (Totally 15 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8)
   e. Band Derived Features (BDF) *Bands + RF/Knee/VIF-->DF
-     (Totally 15 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2)
+     (Totally 15 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, 
+      Std B5/(B4)^3, (B5)^2-(B2)^2)
   f. Composite Features (CF) *Bands + RF/Knee/VIF-->IF+DF
      (Totally 20 features: B2, B3, B4, B5, B6, B7, B8, B8A, B11, B12, B5-B4/B5+B4, B4-B3/B4+B3, B8-B12/B8+B11, B4/B2, B4/B8, 
       StdB4-StdB5, 1/B6-1/B7, 1/8A-StdB2, Std B5/(B4)^3, (B5)^2-(B2)^2)
