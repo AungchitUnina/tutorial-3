@@ -14,16 +14,16 @@ c Department of Civil Engineering and Architecture, Ateneo de Naga University, N
  #### b. Filtered Raw Insitu Data 
       (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, and Sources)
 -----------------------------------------------------------------------------------------------------------------------------
-# 2. Matchups 
- * [a] Original in-situ-Sentinel-2 matchups
-      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + SCL classes)
- * [b] Filtered in-situ-Sentinel-2 matchups by SCL classes (only water)
-      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only water SCL class)
- * [c] Filtered in-situ-Sentinel-2 matchups by SCL classes (only water) with True/False flags after data cleaning
-      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + 
+### 2. Matchups 
+### a. Original in-situ-Sentinel-2 matchups
+      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + SCL classes)
+### b. Filtered in-situ-Sentinel-2 matchups by SCL classes (only water)
+      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only water SCL class)
+### c. Filtered in-situ-Sentinel-2 matchups by SCL classes (only water) with True/False flags after data cleaning
+      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + 
          True/False flags)
- * [d] Filtered in-situ-Sentinel-2 matchups by SCL classes (only water) with only True flag after data cleaning
-      **(Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only True flag)
+### d. Filtered in-situ-Sentinel-2 matchups by SCL classes (only water) with only True flag after data cleaning
+      (Information of coordinates, Date, Lat, Long, Smapling Depth, Chla values, Sources, and spectral bands + only True flag)
 -----------------------------------------------------------------------------------------------------------------------------
 # 3. Extracted Features 
   a. Band Features (BF) *Original spectral bands
